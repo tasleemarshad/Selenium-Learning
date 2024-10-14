@@ -36,8 +36,16 @@ public class Pratices1 {
 			System.out.println("Reversed String"  +revstr);
 		}
 		
+		// Print the name without using the for loop condition
 		
-	
+		String name ="Tasleem";
+		int count =10;
+		
+		while(count > 0 ) {
+			System.out.println(name);
+			count -- ;
+		}
+		
 // Calculate the SUM of Array
 	
 	int[]myArray = {1,5,7,9,11};
